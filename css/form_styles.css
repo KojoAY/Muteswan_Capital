@@ -1,0 +1,73 @@
+form,
+form *{
+	font-family: Nunito Sans;
+	font-size: 11.5pt;
+	margin: 0;
+	padding: 0;
+}
+
+.feedback-form input,
+.feedback-form textarea{
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 10px 3%;
+	text-transform: capitalize;
+	width: 94%
+}
+
+
+@media only screen and (min-width: 800px){
+	.feedback-form input,
+	.feedback-form textarea{
+		padding: 10px 3%;
+		width: 94%
+	}
+}
+
+
+
+/* feedback form */
+.feedback-form{
+	padding: 3% 0;
+}
+
+.feedback-form h1{
+}
+
+.feedback-form input,
+.feedback-form textarea{
+	margin-bottom: 10px;
+}
+
+.feedback-form textarea{
+	height: 200px;
+}
+
+.feedback-form button{
+	border: none;
+	background-color: #000;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 9pt;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+.feedback-form button:hover{
+	background-color: rgb(196,0,0);
+}
+
+
+@media only screen and (min-width: 800px){
+	.feedback-form{
+		border-top: 1px solid #eee;
+		margin-top: 3%;
+	}
+	.feedback-form input{
+		width: 25.87%;
+	}
+
+	.feedback-form input:nth-child(3n){
+		margin: 0 1.5% 20px;
+	}
+}

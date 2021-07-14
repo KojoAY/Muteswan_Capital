@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* real estate list */
+.ul-list.shop-list{
+}
+
+.ul-list.shop-list li{
+	background-color:#fff;
+	border-bottom:1px solid #ECECFB;
+	float:left;
+	margin:0px 30px 30px 0;
+	height:150px;
+	width:47%;
+	overflow:hidden;
+	position:relative;
+}
+
+.ul-list.shop-list li div#hot-cake{
+	background-color:#0C0C1E;
+	border-radius:2px;
+	color:#fff;
+	padding:5px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.ul-list.shop-list li#right-side{
+	margin-right:0px;
+}
+
+.ul-list.shop-list li img{
+	height:100%;
+	margin-right:10px;
+}
+
+.ul-list.shop-list li div#cap{
+	font-size:15px;
+	margin-bottom:10px;
+}
+
+.ul-list.shop-list li div#refid{
+	font-size:20px;
+	color:#000;
+	margin-bottom:10px;
+}
+
+.ul-list.shop-list li a{
+	margin-right:40px;
+}
